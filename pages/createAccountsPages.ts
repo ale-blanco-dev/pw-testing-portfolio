@@ -2,8 +2,6 @@ import {type Locator, type Page} from '@playwright/test'
 
 export class createAccountPage {
     readonly page: Page;
-    readonly linkPageLexio: Locator;
-    readonly createAccountButton: Locator;
     readonly fullNameForms: Locator;
     readonly emailForms: Locator;
     readonly planSelectForms: Locator;
@@ -23,8 +21,6 @@ export class createAccountPage {
 
     constructor(page:Page) {
         this.page = page;
-        this.linkPageLexio = page.getByRole('link', { name: 'Lexio', exact: true })
-        this.createAccountButton = page.getByRole('link', { name: 'Create your account', exact: true });
         this.fullNameForms = page.getByRole('textbox', { name: 'Full name' });
         this.emailForms = page.getByRole('textbox', { name: 'Email' })
         this.planSelectForms = page.getByLabel('Plan')
@@ -47,10 +43,6 @@ export class createAccountPage {
         this.messageCountryIncorrectly = page.getByText('Choose a country');
         this.messageTermsIncorrectly = page.getByText('You must accept the terms');
 
-    }
-
-    async ClickCreateButton(){
-        await this.createAccountButton.click()
     }
 
     async filledFormsAccount(){

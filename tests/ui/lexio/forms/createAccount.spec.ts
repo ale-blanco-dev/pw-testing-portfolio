@@ -1,14 +1,15 @@
 import { test, expect } from '@playwright/test'
 import { verifiedUUID  } from '../../../../helpers/verified';
 import { createAccountPage } from '../../../../pages/createAccountsPages';
+import { mainHeaderPage } from '../../../../pages/mainHeaderPage';
 
 test.describe('Submit the form with all valid fields succeed', () => {
     test.beforeEach(async ({ page }) => {
-        const accountPage = new createAccountPage(page);
+        const mainPage = new mainHeaderPage(page)
 
         await page.goto('https://web-site-testing-pw.web.app/lexio');
-        await expect(accountPage.linkPageLexio).toBeVisible()
-        await accountPage.ClickCreateButton()
+        await expect(mainPage.linkPageLexio).toBeVisible()
+        await mainPage.ClickCreateButton()
     })
 
     test('Fill the form with all valid fields succeeds', async ({ page }) => {
