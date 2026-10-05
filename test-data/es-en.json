@@ -1,0 +1,47 @@
+[
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "type": "simple",
+        "source": "hola",
+        "expectedMeaning1": "hello",
+        "expectedMeaning2": "hi",
+        "expectedMeaning3": "hey"
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "type": "simple",
+        "source": "carro",
+        "expectedMeaning1": "car",
+        "expectedMeaning2": "carriage",
+        "expectedMeaning3": "cart"
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "type": "simple",
+        "source": "manos",
+        "expectedMeaning1": "hands",
+        "expectedMeaning2": "hooks",
+        "expectedMeaning3": "dabs"
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "type": "compuesta",
+        "source": "necesito aprender y practicar mas",
+        "expectedMeaning1": "I need more practice and learning.",
+        "expectedMeaning2": "I need to learn and practice more",
+        "expectedMeaning3": "I need to keep learning and practicing"
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "type": "compuesta",
+        "source": "¿Cual es la mejor plataforma de aprendizaje?",
+        "expectedMeaning1": "What is the best learning platform?",
+        "expectedMeaning2": "Which is the best learning platform?",
+        "expectedMeaning3": "Whats the best platform for learning?"
+    }
+]

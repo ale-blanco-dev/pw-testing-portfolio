@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test'
-import { verifiedUUID  } from '../../../../helpers/verified';
-import { createAccountPage } from '../../../../pages/createAccountsPages';
-import { mainHeaderPage } from '../../../../pages/mainHeaderPage';
+import { verifiedUUID  } from '../../../../helpers/verified.ts';
+import { createAccountPage } from '../../../../pages/createAccountsPages.ts';
+import { mainHeaderPage } from '../../../../pages/mainHeaderPage.ts';
 
 test.describe('Submit the form with all valid fields succeed', () => {
     test.beforeEach(async ({ page }) => {
