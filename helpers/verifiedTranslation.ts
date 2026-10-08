@@ -8,7 +8,7 @@ import { TranslationPage } from '../pages/translationPage.js'
 
 export function validateTranslation(textTranslation: string) {
 for (const testData of data) {
-    const expectedMeanings: string[] = [testData.expectedMeaning1, testData.expectedMeaning2, testData.expectedMeaning3]
+    const expectedMeanings: string[] = testData.expectedMeanings
 
     const isValid: boolean = expectedMeanings.some((elem) => elem === textTranslation)
     if (isValid) console.log('Si, encontraste')

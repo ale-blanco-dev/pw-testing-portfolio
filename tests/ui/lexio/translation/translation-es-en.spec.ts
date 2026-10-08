@@ -18,12 +18,8 @@ test.describe('Testing translation to spanish in english', () => {
         for (const testData of data) {
             await test.step(`Translate: ${testData.source}`, async () => {
                 await translationPage.fillTranslationText(testData.source);
-                console.log('Expected:', testData.expectedMeaning1);
             })
-            await test.step(`Expecting translation: ${testData.expectedMeaning1} or ${testData.expectedMeaning2} or ${testData.expectedMeaning3}`, async () => {
-                console.log('Expected:', testData.expectedMeaning1);
-                console.log('Expected 2:', testData.expectedMeaning2);
-                console.log('Expected 3:', testData.expectedMeaning3);
+            await test.step(`Expecting translation: ${testData.expectedMeanings}}`, async () => {
 
                 const textTranslation = await translationPage.extractTranslationText();
                 console.log(textTranslation)

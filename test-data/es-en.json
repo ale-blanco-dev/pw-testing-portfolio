@@ -2,46 +2,351 @@
     {
         "languageOrigin": "es",
         "languageDestiny": "en",
-        "type": "simple",
+        "level": "A1",
         "source": "hola",
-        "expectedMeaning1": "hello",
-        "expectedMeaning2": "hi",
-        "expectedMeaning3": "hey"
+        "expectedMeanings": ["hello", "hi", "hey"]
     },
     {
         "languageOrigin": "es",
         "languageDestiny": "en",
-        "type": "simple",
+        "level": "A1",
         "source": "carro",
-        "expectedMeaning1": "car",
-        "expectedMeaning2": "carriage",
-        "expectedMeaning3": "cart"
+        "expectedMeanings": ["car", "auto", "ride"]
     },
     {
         "languageOrigin": "es",
         "languageDestiny": "en",
-        "type": "simple",
+        "level": "A1",
         "source": "manos",
-        "expectedMeaning1": "hands",
-        "expectedMeaning2": "hooks",
-        "expectedMeaning3": "dabs"
+        "expectedMeanings": ["hands", "palms", "fingers"]
     },
     {
         "languageOrigin": "es",
         "languageDestiny": "en",
-        "type": "compuesta",
-        "source": "necesito aprender y practicar mas",
-        "expectedMeaning1": "I need more practice and learning.",
-        "expectedMeaning2": "I need to learn and practice more",
-        "expectedMeaning3": "I need to keep learning and practicing"
+        "level": "A1",
+        "source": "gato",
+        "expectedMeanings": ["cat", "jack (tool)", "tomcat"]
     },
     {
         "languageOrigin": "es",
         "languageDestiny": "en",
-        "type": "compuesta",
-        "source": "¿Cual es la mejor plataforma de aprendizaje?",
-        "expectedMeaning1": "What is the best learning platform?",
-        "expectedMeaning2": "Which is the best learning platform?",
-        "expectedMeaning3": "Whats the best platform for learning?"
+        "level": "A1",
+        "source": "libro",
+        "expectedMeanings": ["book", "volume", "text"]
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "level": "A1",
+        "source": "casa",
+        "expectedMeanings": ["house", "home", "household"]
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "level": "A1",
+        "source": "agua",
+        "expectedMeanings": ["water", "liquid", "fluid"]
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "level": "A1",
+        "source": "perro",
+        "expectedMeanings": ["dog", "hound", "pooch"]
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "level": "A2",
+        "source": "trabajar",
+        "expectedMeanings": ["to work", "to labor", "to function"]
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "level": "A2",
+        "source": "rápido",
+        "expectedMeanings": ["fast", "quick", "rapid"]
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "level": "A2",
+        "source": "tienda",
+        "expectedMeanings": ["store", "shop", "tent"]
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "level": "A2",
+        "source": "banco",
+        "expectedMeanings": ["bank", "bench", "shoal"]
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "level": "A2",
+        "source": "derecha",
+        "expectedMeanings": ["right (direction)", "right hand", "right wing (politics)"]
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "level": "A2",
+        "source": "tiempo",
+        "expectedMeanings": ["time", "weather", "tense (grammar)"]
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "level": "A2",
+        "source": "carta",
+        "expectedMeanings": ["letter", "menu", "playing card"]
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "level": "A2",
+        "source": "vela",
+        "expectedMeanings": ["candle", "sail", "vigil"]
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "level": "B1",
+        "source": "echar de menos",
+        "expectedMeanings": ["to miss (someone)", "to long for", "to yearn for"]
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "level": "B1",
+        "source": "dar la lata",
+        "expectedMeanings": ["to annoy", "to pester", "to be a nuisance"]
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "level": "B1",
+        "source": "estar como una cabra",
+        "expectedMeanings": ["to be crazy", "to be nuts", "to be wacky"]
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "level": "B1",
+        "source": "ponerse las pilas",
+        "expectedMeanings": ["to get one's act together", "to buckle down", "to get going"]
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "level": "B1",
+        "source": "tomar el pelo",
+        "expectedMeanings": ["to pull someone's leg", "to tease", "to kid"]
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "level": "B1",
+        "source": "meter la pata",
+        "expectedMeanings": ["to put one's foot in it", "to mess up", "to blunder"]
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "level": "B1",
+        "source": "no tener pelos en la lengua",
+        "expectedMeanings": ["to speak one's mind", "to not mince words", "to be blunt"]
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "level": "B1",
+        "source": "costar un ojo de la cara",
+        "expectedMeanings": ["to cost an arm and a leg", "to be very expensive", "to cost a fortune"]
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "level": "B1",
+        "source": "ser pan comido",
+        "expectedMeanings": ["to be a piece of cake", "to be a breeze", "to be easy as pie"]
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "level": "B1",
+        "source": "dar en el clavo",
+        "expectedMeanings": ["to hit the nail on the head", "to be spot on", "to get it right"]
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "level": "B2",
+        "source": "embarazada",
+        "expectedMeanings": ["pregnant", "expecting", "with child"]
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "level": "B2",
+        "source": "constipado",
+        "expectedMeanings": ["having a cold", "congested", "stuffy"]
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "level": "B2",
+        "source": "sensible",
+        "expectedMeanings": ["sensitive", "touchy", "perceptive"]
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "level": "B2",
+        "source": "éxito",
+        "expectedMeanings": ["success", "achievement", "hit"]
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "level": "B2",
+        "source": "carpeta",
+        "expectedMeanings": ["folder", "binder", "file"]
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "level": "B2",
+        "source": "jubilarse",
+        "expectedMeanings": ["to retire", "to stop working", "to draw a pension"]
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "level": "B2",
+        "source": "recordar",
+        "expectedMeanings": ["to remember", "to recall", "to remind"]
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "level": "B2",
+        "source": "soportar",
+        "expectedMeanings": ["to tolerate", "to put up with", "to bear"]
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "level": "B2",
+        "source": "presumir",
+        "expectedMeanings": ["to boast", "to show off", "to brag"]
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "level": "B2",
+        "source": "molestar",
+        "expectedMeanings": ["to bother", "to annoy", "to disturb"]
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "level": "C1",
+        "source": "de buenas a primeras",
+        "expectedMeanings": ["all of a sudden", "right off the bat", "without warning"]
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "level": "C1",
+        "source": "estar en las nubes",
+        "expectedMeanings": ["to have one's head in the clouds", "to daydream", "to be distracted"]
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "level": "C1",
+        "source": "hacer la vista gorda",
+        "expectedMeanings": ["to turn a blind eye", "to overlook", "to look the other way"]
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "level": "C1",
+        "source": "no dar abasto",
+        "expectedMeanings": ["to be overwhelmed", "to not be able to keep up", "to be swamped"]
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "level": "C1",
+        "source": "tirar la toalla",
+        "expectedMeanings": ["to throw in the towel", "to give up", "to quit"]
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "level": "C1",
+        "source": "salirse con la suya",
+        "expectedMeanings": ["to get one's way", "to have it one's way", "to come out on top"]
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "level": "C1",
+        "source": "estar entre la espada y la pared",
+        "expectedMeanings": ["to be between a rock and a hard place", "to be cornered", "to be in a bind"]
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "level": "C1",
+        "source": "no tener nombre",
+        "expectedMeanings": ["to be outrageous", "to be unspeakable", "to defy description"]
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "level": "C2",
+        "source": "quedarse con los brazos cruzados",
+        "expectedMeanings": ["to stand idly by", "to sit on one's hands", "to remain passive"]
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "level": "C2",
+        "source": "hilar fino",
+        "expectedMeanings": ["to split hairs", "to be meticulous", "to parse finely"]
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "level": "C2",
+        "source": "echar leña al fuego",
+        "expectedMeanings": ["to add fuel to the fire", "to stir the pot", "to make things worse"]
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "level": "C2",
+        "source": "dorar la píldora",
+        "expectedMeanings": ["to sugarcoat", "to soften the blow", "to sweeten the pill"]
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "level": "C2",
+        "source": "ser la gota que colmó el vaso",
+        "expectedMeanings": ["to be the last straw", "to be the final straw", "to be the breaking point"]
+    },
+    {
+        "languageOrigin": "es",
+        "languageDestiny": "en",
+        "level": "C2",
+        "source": "estar en el ojo del huracán",
+        "expectedMeanings": ["to be in the eye of the storm", "to be under intense scrutiny", "to be the center of controversy"]
     }
 ]
